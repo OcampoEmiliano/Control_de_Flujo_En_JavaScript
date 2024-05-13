@@ -1,7 +1,7 @@
-let triangulo = ["#","##","###","####","#####"];
-let i = 0;
-while (i < triangulo.length) {
-    console.log(triangulo[i]);
+let triangulo = "#"
+let i = 1;
+while (i < 6) {
+    console.log(triangulo.repeat(i));
     i++;
 
 }
